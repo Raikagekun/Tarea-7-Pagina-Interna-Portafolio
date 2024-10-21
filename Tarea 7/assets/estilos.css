@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ============== CELULAR ============= */
+
 @media screen and (max-width: 1024px) {
     .main {
         background-color: #f9f9f9; /* Light background for contrast */
@@ -41,15 +42,8 @@ h1, h2, h3, h4, h5, h6 {
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
+    /* Header tags */
     .header__tags--tag {
-        background-color: var(--color-primario-medio);
-        border-radius: 4px;
-        padding: 5px 10px;
-        font-size: 8px;
-        margin: 6px;
-    }
-
-    .header__tags--tag--2 {
         background-color: var(--color-primario-medio);
         border-radius: 4px;
         padding: 5px 10px;
@@ -198,6 +192,17 @@ h1, h2, h3, h4, h5, h6 {
         padding: 30px;
     }
 
+    /* Header tags */
+    .header__tags--tag {
+        background-color: var(--color-primario-medio);
+        border-radius: 4px;
+        padding: 5px 10px;
+        font-size: 12px;
+        margin: 6px;
+        display: inline-block;
+        color: black;
+    }
+
     .presentation {
         display: flex;
         flex-direction: column;
@@ -313,4 +318,5 @@ h1, h2, h3, h4, h5, h6 {
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 }
+
 
