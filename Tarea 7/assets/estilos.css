@@ -22,10 +22,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ============== CELULAR ============= */
-
 @media screen and (max-width: 1024px) {
     .main {
-        background-color: #f9f9f9; /* Light background for contrast */
+        background-color: #f9f9f9;
         padding: 1rem;
         display: flex;
         flex-direction: column;
@@ -42,7 +41,6 @@ h1, h2, h3, h4, h5, h6 {
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
-    /* Header tags */
     .header__tags--tag {
         background-color: var(--color-primario-medio);
         border-radius: 4px;
@@ -79,52 +77,52 @@ h1, h2, h3, h4, h5, h6 {
         flex-direction: column;
         gap: 10px;
         margin-bottom: 10px;
+    }
 
-        .presentation__cta {
-            padding: 15px;
-        }
+    .presentation__cta {
+        padding: 15px;
+    }
 
-        .presentation__a {
-            background-color: var(--color-primario);
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 8px;
-            font-weight: bold;
-            margin-top: 15px;
-            padding: 10px;
-            transition: background-color 0.3s;
-        }
+    .presentation__a {
+        background-color: var(--color-primario);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        font-weight: bold;
+        margin-top: 15px;
+        padding: 10px;
+        transition: background-color 0.3s;
+    }
 
-        .presentation__a:hover {
-            background-color: var(--color-primario-oscuro);
-        }
+    .presentation__a:hover {
+        background-color: var(--color-primario-oscuro);
     }
 
     .sources {
         display: flex;
         flex-direction: column;
+    }
 
-        .sources__tech {
-            background-color: var(--color-primario);
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 10px;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
+    .sources__tech {
+        background-color: var(--color-primario);
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
 
-            .sources__tags--span {
-                background-color: var(--color-primario-medio);
-                border-radius: 4px;
-                padding: 8px 10px; /* Increased padding for better visibility */
-                display: inline-block; /* Makes the box inline, so no overlap */
-                font-size: 12px; /* Ensure font size is visible */
-                color: black; /* Text color inside the box */
-                margin-right: 8px; /* Space between tags */
-            }
-        }
+    .sources__tags--span {
+        background-color: var(--color-primario-medio);
+        border-radius: 4px;
+        padding: 8px 10px;
+        display: inline-block;
+        font-size: 12px;
+        color: black;
+        margin-right: 8px;
     }
 
     .sources__links {
@@ -135,13 +133,13 @@ h1, h2, h3, h4, h5, h6 {
         display: flex;
         flex-direction: column;
         gap: 15px;
+    }
 
-        .sources__tags--lin {
-            background-color: var(--color-primario-medio);
-            color: black;
-            border-radius: 4px;
-            padding: 8px;
-        }
+    .sources__tags--lin {
+        background-color: var(--color-primario-medio);
+        color: black;
+        border-radius: 4px;
+        padding: 8px;
     }
 
     .project {
@@ -161,18 +159,19 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .aside {
-        background-color: #f9f9f9; /* Light background for contrast */
+        background-color: #f9f9f9;
         padding: 1rem;
         border-radius: 8px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 }
 
+/* ============== DESKTOP ============= */
 @media screen and (min-width: 1024px) {
     body {
         display: grid;
         grid-template-columns: 70% 30%;
-        background-color: #f9f9f9; /* Light background for overall page */
+        background-color: #f9f9f9;
     }
 
     .header {
@@ -192,7 +191,6 @@ h1, h2, h3, h4, h5, h6 {
         padding: 30px;
     }
 
-    /* Header tags */
     .header__tags--tag {
         background-color: var(--color-primario-medio);
         border-radius: 4px;
@@ -228,8 +226,8 @@ h1, h2, h3, h4, h5, h6 {
         flex-direction: column;
         height: max-content;
         position: sticky;
-        display: none;
         top: 0;
+        display: none;
     }
 
     .presentation__info.presentation__aside {
@@ -238,25 +236,25 @@ h1, h2, h3, h4, h5, h6 {
         font-size: large;
         margin-top: 10px;
         gap: 10px;
+    }
 
-        .presentation__cta {
-            display: flex;
-            align-items: center;
-            padding: 20px;
+    .presentation__cta {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
 
-            .presentation__a {
-                border-radius: 12px;
-                color: white;
-                font-weight: bold;
-                padding: 20px;
-                background-color: var(--color-primario);
-                transition: background-color 0.3s;
-            }
+    .presentation__a {
+        border-radius: 12px;
+        color: white;
+        font-weight: bold;
+        padding: 20px;
+        background-color: var(--color-primario);
+        transition: background-color 0.3s;
+    }
 
-            .presentation__a:hover {
-                background-color: var(--color-primario-oscuro);
-            }
-        }
+    .presentation__a:hover {
+        background-color: var(--color-primario-oscuro);
     }
 
     .sources {
@@ -264,40 +262,40 @@ h1, h2, h3, h4, h5, h6 {
         flex-direction: column;
         font-size: large;
         gap: 20px;
+    }
 
-        .sources__tech {
-            background-color: var(--color-primario);
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 25px;
-            border-radius: 8px;
+    .sources__tech {
+        background-color: var(--color-primario);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        border-radius: 8px;
+    }
 
-            .sources__tags--span {
-                border-radius: 4px;
-                background-color: var(--color-primario-medio);
-                padding: 8px 10px; /* Increased padding */
-                display: inline-block; /* Ensures no overlap */
-                margin-right: 8px; /* Space between hashtags */
-            }
-        }
+    .sources__tags--span {
+        border-radius: 4px;
+        background-color: var(--color-primario-medio);
+        padding: 8px 10px;
+        display: inline-block;
+        margin-right: 8px;
+    }
 
-        .sources__links {
-            background-color: var(--color-primario);
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 25px;
-            border-radius: 8px;
-            margin-bottom: 20px;
+    .sources__links {
+        background-color: var(--color-primario);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
 
-            .sources__tags--lin {
-                color: black;
-                border-radius: 4px;
-                background-color: var(--color-primario-medio);
-                padding: 8px;
-            }
-        }
+    .sources__tags--lin {
+        color: black;
+        border-radius: 4px;
+        background-color: var(--color-primario-medio);
+        padding: 8px;
     }
 
     .project {
@@ -312,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .aside {
-        background-color: #f9f9f9; /* Light background for contrast */
+        background-color: #f9f9f9;
         padding: 1rem;
         border-radius: 8px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
